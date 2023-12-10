@@ -1,5 +1,5 @@
 from flask import Flask, Blueprint
-from v1.index import api
+from api import api
 
 app = Flask(__name__)
 
