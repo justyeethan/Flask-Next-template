@@ -23,7 +23,7 @@ export default function About() {
         {!isLoading ? people?.map((person: string) => {
           return (
             <>
-              <Chip color="primary" className="ml-5">
+              <Chip color="primary" className="m-5 mt-0">
                 {person}
               </Chip>
             </>
